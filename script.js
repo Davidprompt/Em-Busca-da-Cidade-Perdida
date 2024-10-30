@@ -8,6 +8,5 @@ avanca.forEach(button => {
         atual.classList.remove('ativo');
         document.getElementById(proximoPasso).classList.add('ativo');
 
-        // Remova a parte que esconde os botões nas etapas finais
     });
 });
